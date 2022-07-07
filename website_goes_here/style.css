@@ -1,0 +1,13 @@
+#tweets-container {
+  display: none;
+  width: auto;
+}
+
+#no-data__negative-posts, #no-data__positive-posts {
+  display: none;
+}
+
+#parent-container {
+  display: block;
+}
+

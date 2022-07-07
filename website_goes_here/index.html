@@ -1,1 +1,63 @@
-<h1>This is working</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Twitter Widget -->
+    <script src="https://platform.twitter.com/widgets.js"></script>
+
+    <!-- Script -->
+    <script src="./twitterTest.js"></script>
+  </head>
+  <body>
+      <!--  Positive Button  -->
+      <button id="tweets-btn">Toggle Posts</button>
+
+    <div id="parent-container">
+
+      <!-- Positive Tweets Container-->
+      <div id="tweets-container">
+        <div class="container-fluid" id="tweets">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3" id="tweetCol1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3" id="tweetCol2"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3" id="tweetCol3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
